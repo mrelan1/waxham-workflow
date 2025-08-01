@@ -1,8 +1,8 @@
 # Guide to MemBrain
 
-🎥 [Watch the Amira Video Tutorial on YouTube]insert link here
+🎥 [Watch the Amira Video Tutorial on YouTube](https://youtu.be/DDIMwohBpP4)
 
-📁 [Download the Amira Demo Files from Dropbox](https://www.dropbox.com/scl/fo/kh47pz9wit94us4fq7flj/AFrUL6RYBU-xZPT5ArRcZXg?rlkey=lb65rlut0m3pgckli7ksedi5i&st=37zq9kb6&dl=0)
+📁 [Download the MemBrain Demo Files from Dropbox](https://www.dropbox.com/scl/fo/kh47pz9wit94us4fq7flj/AFrUL6RYBU-xZPT5ArRcZXg?rlkey=lb65rlut0m3pgckli7ksedi5i&st=37zq9kb6&dl=0)
 
 ## Installation of MemBrain
 
