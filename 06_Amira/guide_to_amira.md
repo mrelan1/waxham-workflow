@@ -18,7 +18,7 @@ Click the “Open Data” button again. Import the TARDIS output segmentation (e
 ***Note:** This file must be in the **int16 format** to ensure proper compatibility with Amira's segmentation tools. If it is not already in this format, you will need to convert it before import.*
 
 <p align="center">
-  <img src="amira_images/import_2.png" alt="Import step in Amira" />
+  <img src="amira_images/image1.png"/>
   <br>
   <em>Above: you should now have two files imported</em>
 </p>
