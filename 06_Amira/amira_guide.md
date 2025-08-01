@@ -14,3 +14,5 @@ from the Amira toolbox to visualize the imported volume
 *_semantic.mrc).
 
 ***Note**: This file must be in the **int16 format** to ensure proper compatibility with Amira's segmentation tools. If it is not already in this format, you will need to convert it before import.*
+
+![Files Imported](images/import_2.png)
