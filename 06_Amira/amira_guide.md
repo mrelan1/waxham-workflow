@@ -4,8 +4,8 @@
 
 ## Import and Set-Up
 
-1. Import MemBrain Scores File
-   Open a new project. Click the “Open Data” button in the top left. Import the MemBrain 
+**1. Import MemBrain Scores File**
+Open a new project. Click the “Open Data” button in the top left. Import the MemBrain 
 segmentation scores file (e.g. *_scores.mrc). You can right click this and select Ortho Slice 
 from the Amira toolbox to visualize the imported volume
 
