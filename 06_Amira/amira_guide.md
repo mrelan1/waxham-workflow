@@ -84,7 +84,7 @@ right of the scale and select “Adjust range to” and “Data min-max.”*
 Now that the mask has been adjusted, we can start to segment and view the tomogram in 
 3D. Select the class you want to segment in the table. With the magic wand tool selected, 
 click the signal on the blue mask you would like to segment. When you click, the selected 
-signal’s mask will turn purple, and a 3D preview of your selection will appear in the rightside panel of the Segmentation window. (Make sure to check the 3D box to the right of the  class name in the Materials table).
+signal’s mask will turn purple, and a 3D preview of your selection will appear in the right-side panel of the Segmentation window. (Make sure to check the 3D box to the right of the  class name in the Materials table).
 
 To add your selected signal to the segmentation, click the (+) button below the words 
 “Selection.” Repeat this process to add segmentations of signal for all classes. 
@@ -107,6 +107,68 @@ signal, and the 3D preview will expand.
 enables you to see when you segment too much and capture signal that is 
 not your selected class, or when you segment too little and miss signal in 
 the tomogram.
+
+**6. Moving Between MemBrain and TARDIS Files**
+
+The image you segment can be changed by selecting a new image from the toggle in Image: 
+(at the top under Segmentation Editor). When you move between images, the Masking scale 
+should automatically adjust to the histogram of the tomogram. If not, click the “Edit” 
+dropdown to the right of the scale and select “Adjust range to” and “Data min-max.”
+
+## Visualization and Animation
+
+**1. Generate Volume Rendering**
+
+Once you have finished segmenting your tomogram in the Segmentation Window, return to the 
+Project Window by using the top tab. You will now see a new file that Amira generated as your 
+segmentation: *scores.labels. This will be attached to your *scores.mrc file.
+
+Right click on the *scores.labels file to open the modules dialog. In the left-side menu of the 
+dialog, click Display. Then, in the menu to the right, scroll and select Volume Rendering and 
+click Create. You should now be able to see the 3D segmentation of your tomogram. You 
+can use your mouse to move around the volume.
+
+**2. Move Ortho Slice through Volume**
+We can overlay our existing Ortho Slice of the *scores.mrc file onto the volume for 
+visualization purposes. Click the gray box to the left of “Ortho Slice” words in the orange 
+module connected to your *scores.mrc file. The box should turn blue, and your Ortho Slice should appear with the volume. Use the slice number slider in the Properties panel on the bottom left to scroll through the z-slices of the tomogram.
+
+**3. Animate Ortho Slice**
+
+You can animate the Ortho-Slice running through all z-slices. Right click on the Ortho Slice module 
+attached to the *scores.labels file to open the modules dialog. In the left-side menu of the dialog, 
+click Animate. Then, in the menu to the right, select Animate Ports and click Create. A new yellow 
+module will appear, and its properties panel will open in the bottom left. 
+
+In the “Time:” row, simply hit the Play button (looks like a Triangle oriented on its right side, directly 
+to the left of the slice number box) to animate the Ortho Slice moving through all z-slices.
+
+In the dropdown menu to the right of the slice number box, you can configure the animation 
+to play once, loop, stop, adjust the timing, and more.
+
+## Bugs and Fixes
+
+**Unable to Fix Masking when Moving Between Membrain and TARDIS in Segmentation Window**
+
+This was the only major bug encountered when using Amira. When you are segmenting and 
+switching between the Membrain and TARDIS files, the Masking scale will sometimes not 
+automatically adjust. In some cases, the Masking scale will glitch, and you will not be able to use 
+the Magic Wand. 
+
+*This only has happened for the following reason: returning to the Project Window while segmenting 
+one file and opening the Segmentation Window with the other file.*
+
+**Mihir's Fix:**
+- Save your *scores.labels file. It will save as an .am file (the Amira file type).
+- Close Amira and reopen a new project. 
+- Reimport your *scores.mrc and *semantic.mrc files
+- Import your saved *scores.labels file
+- Resume segmentation. The *scores.mrc file will automatically recognize the imported 
+*scores.labels file as the Label Field.
+
+If any other bugs or fixes, please send to mrelan1@jh.edu so I can update this guide. 
+
+
 
 
 
