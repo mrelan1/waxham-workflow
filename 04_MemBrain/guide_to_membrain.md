@@ -49,18 +49,18 @@ Run the segmentation by using the following template:
 <pre>membrain segment \
 --tomogram-path 
 ./membrain_inputs/membrain_input_filename.mrc \
---ckpt-path ~/membrainseg/models/MemBrain_seg_v10_alpha.ckpt \
+--ckpt-path ~/membrain-seg/models/MemBrain_seg_v10_alpha.ckpt \
 --out-folder ./membrain_seg_outputs/labelname \
 --store-probabilities </pre>
 
 Ensure that you replace the following placeholders: 
 - membrain_input_filename.mrc with your file name
 - membrain_seg_outputs/labelname with your actual output directory
-- 
+  
 After completion, the output folder will contain the following files:
-- * _MemBrain_seg_v10_alpha.ckpt_segmented.mrc
-- *_scores.mrc
-- 
+- MemBrain_seg_v10_alpha.ckpt_segmented.mrc
+- scores.mrc
+  
 The scores file will be used in the semantic segmentation step.
 
 ## Example of a Full Run
