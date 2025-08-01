@@ -8,15 +8,15 @@ This project uses the following software tools and scripts. Please cite them app
 
 ## IsoNet
 - Liu, Y.-T., et al. (2021). “IsoNet: A 3D deep learning approach for real-time tomographic denoising and missing wedge compensation.” *Nature Communications*, 12, 6092.
-- GitHub: [https://github.com/IsoNet-project/IsoNet](https://github.com/IsoNet-project/IsoNet)
+- GitHub: [https://github.com/IsoNet-cryoET/IsoNet](https://github.com/IsoNet-cryoET/IsoNet)
 
-## MemBrain
+## MemBrain-v2
 - Liu, Y., et al. (2022). “MemBrain: Automated membrane segmentation in cryo-ET using deep learning.” *Nature Methods*, 19, 545–552.
-- GitHub: [https://github.com/ZHU-Lab/MemBrain](https://github.com/ZHU-Lab/MemBrain)
+- GitHub: [https://github.com/CellArchLab/MemBrain-v2](https://github.com/CellArchLab/MemBrain-v2)
 
 ## TARDIS
 - Zhang, Y., et al. (2023). "TARDIS: Efficient Microtubule Segmentation in Cryo-ET." *Nature Biotechnology*.
-- GitHub: [https://github.com/GrotjahnLab/TARDIS](https://github.com/GrotjahnLab/TARDIS)
+- GitHub: [https://github.com/SMLC-NYSBC/TARDIS](https://github.com/SMLC-NYSBC/TARDIS)
 
 ## Amira
 - Thermo Fisher Scientific. [Amira Software](https://www.thermofisher.com/amira-avizo)
