@@ -17,6 +17,7 @@ from the Amira toolbox to visualize the imported volume
 
 <p align="center">
   <img src="amira_images/import_2.png" alt="Import step in Amira" />
-  <figcaption>Above: you should now have two files imported</figcaption>
+  <br>
+  <em>Above: you should now have two files imported</em>
 </p>
 
