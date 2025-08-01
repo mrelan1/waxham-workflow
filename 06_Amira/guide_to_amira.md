@@ -2,7 +2,7 @@
 
 🎥 [Watch the Amira Video Tutorial on YouTube](https://youtu.be/yl-nqEb0eNE)
 
-## I. Import and Set-Up
+## Import and Set-Up
 
 **1. Import MemBrain Scores File**
 
@@ -36,7 +36,7 @@ click the blue box (to turn to a gray (inactive)), and click the gray box on the
 tomogram (to turn to blue).
 
 
-## II. Segmentation with the Magic Wand
+## Segmentation with the Magic Wand
 
 **1. Open Segmentation Window/Confirm Image and Label Field**
 
@@ -115,7 +115,7 @@ The image you segment can be changed by selecting a new image from the toggle in
 should automatically adjust to the histogram of the tomogram. If not, click the “Edit” 
 dropdown to the right of the scale and select “Adjust range to” and “Data min-max.”
 
-## III. Visualization and Animation
+## Visualization and Animation
 
 **1. Generate Volume Rendering**
 
@@ -146,7 +146,7 @@ to the left of the slice number box) to animate the Ortho Slice moving through a
 In the dropdown menu to the right of the slice number box, you can configure the animation 
 to play once, loop, stop, adjust the timing, and more.
 
-## IV. Bugs and Fixes
+## Bugs and Fixes
 
 **Unable to Fix Masking when Moving Between Membrain and TARDIS in Segmentation Window**
 
