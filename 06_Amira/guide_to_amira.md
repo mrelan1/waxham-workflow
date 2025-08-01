@@ -35,6 +35,12 @@ indicate which tomogram is currently displayed. To turn off and on a tomogram’
 click the blue box (to turn to a gray (inactive)), and click the gray box on the inactive 
 tomogram (to turn to blue).
 
+<p align="center">
+  <img src="amira_images/image2.png"/>
+  <br>
+  <em>Above: *_scores.mrc is currently displayed, and *_semantic.mrc is currently turned off</em>
+</p>
+
 
 ## Segmentation with the Magic Wand
 
@@ -43,6 +49,12 @@ tomogram (to turn to blue).
 Select the *_scores.mrc file. Then, in the top menu, select the Segmentation tab. The 
 display will then change to the Segmentation Window. Confirm the image you selected 
 corresponds to the proper label field. See image below for example.
+
+<p align="center">
+  <img src="amira_images/image3.png"/>
+  <br>
+  <em>Above: Confirm image and label field</em>
+</p>
 
 **2. Build Materials Table**
 
@@ -57,6 +69,12 @@ rename as many classes as you want to segment.
 you begin segmenting, you are committed to that order of classes, which can affect 
 downstream analysis.*
 
+<p align="center">
+  <img src="amira_images/image4.png"/>
+  <br>
+  <em>Above: Example of a complete table of 11 classes</em>
+</p>
+
 **3. Launch the Magic Wand**
 
 Below the Materials section, note the Selection section. By default, the mouse arrow tool 
@@ -65,6 +83,12 @@ will be selected. Select the fourth tool that looks like a wand. This is the Mag
 In your image pane, a blue-ish mask will cover your tomogram. We will adjust this mask to 
 help us segment signal. Below the tool selection, there will be deselected checkboxes. 
 Check the boxes “All slices” and “Same material only.”
+
+<p align="center">
+  <img src="amira_images/image5.png"/>
+  <br>
+  <em>Above: The magic wand tool selected and the proper checked boxes</em>
+</p>
 
 **4. Adjust the Masking to Segment**
 
@@ -80,11 +104,29 @@ will notice the mask begins to restrict itself as well.
 ***Note:** If the Masking scale is not automatically calibrated, click the “Edit” dropdown to the 
 right of the scale and select “Adjust range to” and “Data min-max.”*
 
+<p align="center">
+  <img src="amira_images/image6.png"/>
+  <br>
+  <em>Above: Left-side domain restrictor moved to the right ~20-25% of histogram</em>
+</p>
+<p align="center">
+  <img src="amira_images/image7.png"/>
+  <br>
+  <em>Above: Full-view of the set-up to this point. (1) Materials table has been created, (2) Masking scale is adjusted, (3) Mask over tomogram has been restricted to signal.</em>
+</p>
+
+
 **5. Segmentation and 3D Viewing**
 Now that the mask has been adjusted, we can start to segment and view the tomogram in 
 3D. Select the class you want to segment in the table. With the magic wand tool selected, 
 click the signal on the blue mask you would like to segment. When you click, the selected 
 signal’s mask will turn purple, and a 3D preview of your selection will appear in the right-side panel of the Segmentation window. (Make sure to check the 3D box to the right of the  class name in the Materials table).
+
+<p align="center">
+  <img src="amira_images/image8.png"/>
+  <br>
+  <em>Above: Left-side purple selection of signal, right-side 3D preview of selection</em>
+</p>
 
 To add your selected signal to the segmentation, click the (+) button below the words 
 “Selection.” Repeat this process to add segmentations of signal for all classes. 
@@ -115,6 +157,12 @@ The image you segment can be changed by selecting a new image from the toggle in
 should automatically adjust to the histogram of the tomogram. If not, click the “Edit” 
 dropdown to the right of the scale and select “Adjust range to” and “Data min-max.”
 
+<p align="center">
+  <img src="amira_images/image9.png"/>
+  <br>
+  <em>Above: Drop-down of image input options after toggling on Image</em>
+</p>
+
 ## Visualization and Animation
 
 **1. Generate Volume Rendering**
@@ -123,15 +171,33 @@ Once you have finished segmenting your tomogram in the Segmentation Window, retu
 Project Window by using the top tab. You will now see a new file that Amira generated as your 
 segmentation: *scores.labels. This will be attached to your *scores.mrc file.
 
+<p align="center">
+  <img src="amira_images/image10.png"/>
+  <br>
+  <em>Above: File organization after *scores.labels is created</em>
+</p>
+
 Right click on the *scores.labels file to open the modules dialog. In the left-side menu of the 
 dialog, click Display. Then, in the menu to the right, scroll and select Volume Rendering and 
 click Create. You should now be able to see the 3D segmentation of your tomogram. You 
 can use your mouse to move around the volume.
 
+<p align="center">
+  <img src="amira_images/image11.png"/>
+  <br>
+  <em>Above: Volume rendering of segmentation</em>
+</p>
+
 **2. Move Ortho Slice through Volume**
 We can overlay our existing Ortho Slice of the *scores.mrc file onto the volume for 
 visualization purposes. Click the gray box to the left of “Ortho Slice” words in the orange 
 module connected to your *scores.mrc file. The box should turn blue, and your Ortho Slice should appear with the volume. Use the slice number slider in the Properties panel on the bottom left to scroll through the z-slices of the tomogram.
+
+<p align="center">
+  <img src="amira_images/image12.png"/>
+  <br>
+  <em>Above: Ortho Slice overlaid on 3D volume</em>
+</p>
 
 **3. Animate Ortho Slice**
 
@@ -142,6 +208,12 @@ module will appear, and its properties panel will open in the bottom left.
 
 In the “Time:” row, simply hit the Play button (looks like a Triangle oriented on its right side, directly 
 to the left of the slice number box) to animate the Ortho Slice moving through all z-slices.
+
+<p align="center">
+  <img src="amira_images/image13.png"/>
+  <br>
+  <em>Above: The play button in the Animate Ports properties</em>
+</p>
 
 In the dropdown menu to the right of the slice number box, you can configure the animation 
 to play once, loop, stop, adjust the timing, and more.
