@@ -34,3 +34,5 @@ The blue box in the orange Ortho Slice module (to the left of the words “Ortho
 indicate which tomogram is currently displayed. To turn off and on a tomogram’s display, 
 click the blue box (to turn to a gray (inactive)), and click the gray box on the inactive 
 tomogram (to turn to blue).
+
+## Segmentation with the Magic Wand
