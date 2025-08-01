@@ -74,14 +74,14 @@ The full commands would be:
 <pre>cd /relan/Cryo-EMData/membrain_inputs</pre>
 <pre>conda activate membrain</pre>
 <pre>membrain segment \
- --tomogram-path ~/relan/CryoEMData/membrain_inputs/Position5B_0602_deconv.mrc \
+ --tomogram-path ~/relan/Cryo-EMData/membrain_inputs/Position5B_0602_deconv.mrc \
  --ckpt-path ~/membrain-seg/models/MemBrain_seg_v10_alpha.ckpt \
  --out-folder ~/relan/Cryo-EMData/membrain_outputs/position5b_0602 \
  --store-probabilities</pre>
  
 You can also write the command in one line without the backslashes. 
 
-<pre>membrain segment --tomogram-path ~/relan/CryoEMData/membrain_inputs/Position5B_0602_deconv.mrc --ckpt-path 
+<pre>membrain segment --tomogram-path ~/relan/Cryo-EMData/membrain_inputs/Position5B_0602_deconv.mrc --ckpt-path 
 ~/membrain-seg/models/MemBrain_seg_v10_alpha.ckpt --out-folder 
 ~/relan/Cryo-EMData/membrain_outputs/position5b_0602 --store-probabilities</pre>
 
