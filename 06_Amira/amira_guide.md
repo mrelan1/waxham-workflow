@@ -21,3 +21,4 @@ from the Amira toolbox to visualize the imported volume
   <em>Above: you should now have two files imported</em>
 </p>
 
+3. 
