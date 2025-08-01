@@ -15,4 +15,6 @@ from the Amira toolbox to visualize the imported volume
 
 ***Note**: This file must be in the **int16 format** to ensure proper compatibility with Amira's segmentation tools. If it is not already in this format, you will need to convert it before import.*
 
-![Files Imported](amira_images/import_2.png)
+<p align="center">
+  <img src="amira_images/import_2.png" alt="Import step in Amira" />
+</p>
