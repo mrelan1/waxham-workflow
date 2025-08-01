@@ -12,3 +12,5 @@ from the Amira toolbox to visualize the imported volume
 2. Import TARDIS Microtubule Semantic File
    Click the “Open Data” button again. Import the TARDIS output segmentation (e.g. 
 *_semantic.mrc).
+
+***Note**: This file must be in the **int16 format** to ensure proper compatibility with Amira's segmentation tools. If it is not already in this format, you will need to convert it before import.*
