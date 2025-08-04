@@ -67,7 +67,7 @@ We do this using the IMOD newstack command.
 
 ## Example of a Full Run
 
-Assume I have Position5B_0602_deconv.mrc inside ~/relan/CryoEMData/tardis_inputs/ and I want the outputs in ~/relan/CryoEMData/tardis_outputs/Position5B_0602/:
+Assume I have Position5B_0602_deconv.mrc inside ~/relan/Cryo-EMData/tardis_inputs/ and I want the outputs in ~/relan/Cryo-EMData/tardis_outputs/Position5B_0602/:
 
 The full commands would be:
 
@@ -122,4 +122,8 @@ tardis_mt on the tomograms.
 Run the script with the command:
 
 <pre>./run_tardis_batch.sh</pre>
+
+## Attributions
+
+
 
