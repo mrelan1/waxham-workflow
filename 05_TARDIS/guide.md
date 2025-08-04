@@ -125,5 +125,8 @@ Run the script with the command:
 
 ## Attributions
 
+- Zhang, Y., et al. (2023). "TARDIS: Efficient Microtubule Segmentation in Cryo-ET." *Nature Biotechnology*.
+- GitHub: [https://github.com/SMLC-NYSBC/TARDIS](https://github.com/SMLC-NYSBC/TARDIS)
 
+Special thanks to Benjamin Barad at Oregon Health & Science University, School of Medicine, Department of Chemical Physiology and Biochemistry for his help with establishing the file format conversion step for compatibility with Amira. 
 
