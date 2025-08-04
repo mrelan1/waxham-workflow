@@ -5,13 +5,13 @@ source ~/miniconda3/etc/profile.d/conda.sh
 conda activate membrain
 
 # Define input and output directories
-INPUT_DIR="/waxham/Cryo-EMData/Waxham_2025/Mihir_Summer_2025/YoungvsOldDRG_Experiment/Old_Dataset/Tomograms_after_IsoNet"
-OUTPUT_BASE="/waxham/Cryo-EMData/Waxham_2025/Mihir_Summer_2025/YoungvsOldDRG_Experiment/Old_Dataset/Membrain_Seg_Outputs"
-CKPT_PATH="/home/neal/membrain-seg/models/MemBrain_seg_v10_alpha.ckpt"
+INPUT_DIR="/path/to/your/input/directory"
+OUTPUT_BASE="/path/to/your/output/directory"
+CKPT_PATH="/path/to/your/ckpt/directory"
 
 # Loop through all matching tomograms
-for file in "$INPUT_DIR"/Position*_0423_deconv.mrc; do
-    # Get base filename (e.g., Position2A_0423_deconv)
+for file in "$INPUT_DIR"/insert_naming_pattern; do
+    # Get base filename
     base=$(basename "$file" .mrc)
     
     # Create unique output folder
