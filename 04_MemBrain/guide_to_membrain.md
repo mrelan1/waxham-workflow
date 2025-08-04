@@ -122,3 +122,8 @@ Run the script with the command:
 
 <pre>./run_membrain_batch.sh</pre>
 
+## Attributions
+
+- Liu, Y., et al. (2022). “MemBrain: Automated membrane segmentation in cryo-ET using deep learning.” *Nature Methods*, 19, 545–552.
+- GitHub: [https://github.com/CellArchLab/MemBrain-v2](https://github.com/CellArchLab/MemBrain-v2)
+
