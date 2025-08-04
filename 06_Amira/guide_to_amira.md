@@ -242,9 +242,14 @@ one file and opening the Segmentation Window with the other file.*
 
 If any other bugs or fixes, please send to mrelan1@jh.edu so I can update this guide. 
 
-## Citation of Software
+## Attributions
 
-This guide uses the Amira software developed by Thermo Fisher Scientific (Commercial license required). Please cite: [Amira Software](https://www.thermofisher.com/amira-avizo)
+- Thermo Fisher Scientific. [Amira Software](https://www.thermofisher.com/amira-avizo)
+- (Commercial license required)
+
+Special thanks to Benjamin Barad at Oregon Health & Science University, School of Medicine, Department of Chemical Physiology and Biochemistry for his help with the foundational tutorials of using Amira.
+
+
 
 
 
