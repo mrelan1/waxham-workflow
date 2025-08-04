@@ -5,11 +5,11 @@ source ~/miniconda3/etc/profile.d/conda.sh
 conda activate tardis
 
 # Set input and output base paths
-INPUT_DIR="/waxham/Cryo-EMData/Waxham_2025/Mihir_Summer_2025/YoungvsOldDRG_Experiment/Old_Dataset/Tomograms_after_IsoNet"
-BASE_OUT="/waxham/Cryo-EMData/Waxham_2025/Mihir_Summer_2025/YoungvsOldDRG_Experiment/Old_Dataset/Tardis_Outputs"
+INPUT_DIR="/path/to/your/input/directory"
+BASE_OUT="/path/to/your/base/output/directory"
 
 # Loop through all matching .mrc files
-for file in "$INPUT_DIR"/Position*_0423_deconv.mrc; do
+for file in "$INPUT_DIR"/naming_pattern; do
     base=$(basename "$file" .mrc)
     OUT_DIR="$BASE_OUT/$base"
     
