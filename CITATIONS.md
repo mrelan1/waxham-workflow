@@ -1,6 +1,6 @@
-# Citations
+# Attributions
 
-This project uses the following software tools and scripts. Please cite them appropriately if reusing this workflow.
+This project uses the following software tools and scripts. Please attribute them appropriately if reusing this workflow.
 
 ## Etomo
 - Mastronarde, D. N. (2005). “Automated electron microscope tomography using robust prediction of specimen movements.” *Journal of Structural Biology*, 152(1), 36–51.
