@@ -31,7 +31,7 @@ Before running any MemBrain commands, ensure your environment is active:
 
 **2. Organize your Files**
 
-Place your aligned, binned *.mrc tomograms from etomo in a directory named 
+Place your aligned, binned, and denoised *.mrc tomograms from etomo in a directory named 
 membrain_inputs/.
 
 Then, create an empty output directory:
